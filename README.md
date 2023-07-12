@@ -1,39 +1,52 @@
-<!--
-This README describes the package. If you publish this package to pub.dev,
-this README's contents appear on the landing page for your package.
+# camera_color_picker
+A Flutter widget to pick colors using the camera.
 
-For information about how to write a good package README, see the guide for
-[writing package pages](https://dart.dev/guides/libraries/writing-package-pages).
+*Note*: This plugin is still under development.
 
-For general information about developing packages, see the Dart guide for
-[creating packages](https://dart.dev/guides/libraries/create-library-packages)
-and the Flutter guide for
-[developing packages and plugins](https://flutter.dev/developing-packages).
--->
+## Installation
 
-TODO: Put a short description of the package here that helps potential users
-know whether this package might be useful for them.
+First, add `camera_color_picker` as a [dependency in your pubspec.yaml file](https://flutter.io/platform-plugins/).
 
-## Features
 
-TODO: List what your package can do. Maybe include images, gifs, or videos.
-
-## Getting started
-
-TODO: List prerequisites and provide or point to information on how to
-start using the package.
-
-## Usage
-
-TODO: Include short and useful examples for package users. Add longer examples
-to `/example` folder.
-
-```dart
-const like = 'sample';
+```
+camera_color_picker: ^0.1.0
 ```
 
-## Additional information
+## Basic Example
 
-TODO: Tell users more about the package: where to find more information, how to
-contribute to the package, how to file issues, what response they can expect
-from the package authors, and more.
+```
+Color currentColor = Colors.blueAccent;
+```
+
+```
+CameraColorPicker(
+                currentColor: currentColor,
+                onColorChanged: (Color color) {
+                  currentColor = color;
+                  setState(() {});
+                },
+              ),
+
+```
+
+
+## Example-2 (Use the child argument to change the appearance of the button)
+
+```
+Color currentColor = Colors.blueAccent;
+```
+
+```
+ CameraColorPicker(
+                currentColor: currentColor,
+                onColorChanged: (Color color) {
+                  currentColor = color;
+                  setState(() {});
+                },
+              child: Icon(
+                  Icons.icecream_sharp,
+                  color: currentColor,
+                ),
+              ),
+
+```
