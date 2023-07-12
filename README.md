@@ -9,7 +9,7 @@ First, add `camera_color_picker` as a [dependency in your pubspec.yaml file](htt
 
 
 ```
-camera_color_picker: ^0.1.0
+camera_color_picker: ^0.0.1
 ```
 
 ## Basic Example
