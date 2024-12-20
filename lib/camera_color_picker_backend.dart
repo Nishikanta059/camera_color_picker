@@ -145,7 +145,7 @@ class _CameraColorPickerBackendState extends State<CameraColorPickerBackend> {
                 _cameraInitialized = false;
                 await _camera!.dispose();
                 if (!context.mounted) return;
-                Navigator.pop(context, middleColor.toString());
+                Navigator.pop(context, middleColor);
               },
               child: Container(
                 color: middleColor,

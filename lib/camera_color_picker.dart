@@ -32,13 +32,16 @@ class _CameraColorPickerState extends State<CameraColorPicker> {
               builder: (BuildContext context) =>
                   const CameraColorPickerBackend()));
 
-      String valueString = colorString
-          .toString()
-          .split('(0x')[1]
-          .split(')')[0]; // kind of hacky..
-      int value = int.parse(valueString, radix: 16);
+      if(colorString.toString().contains("0x")) {
+        String valueString = colorString
+            .toString()
+            .split('(0x')[1]
+            .split(')')[0];
+        int value = int.parse(valueString, radix: 16);
+        _currentColor2 = Color(value);
+      }
 
-      _currentColor2 = Color(value);
+      _currentColor2 = colorString;
 
       widget.onColorChanged(_currentColor2);
       setState(() {});
