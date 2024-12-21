@@ -1,6 +1,6 @@
 name: camera_color_picker
 description: A Flutter widget to pick color using camera
-version: 0.0.2
+version: 0.0.3
 homepage: https://github.com/Nishikanta059/camera_color_picker
 
 environment:

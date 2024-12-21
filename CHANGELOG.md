@@ -1,4 +1,3 @@
-## 0.0.2
+## 0.0.3
 
-* TODO: Minor bug fix and dependency update
-dart
+* TODO: readme update
