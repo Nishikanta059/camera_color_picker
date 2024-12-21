@@ -11,6 +11,11 @@ First, add `camera_color_picker` as a [dependency in your pubspec.yaml file](htt
 ```
 camera_color_picker: ^0.0.1
 ```
+## Demo-Basic 
+![Screenshot_2024-12-21-01-16-09-840_com example dummy](https://github.com/user-attachments/assets/783e7479-f5eb-4131-b89a-0ba0f3bc8bf5)
+
+https://github.com/user-attachments/assets/0ddda603-7d17-4e48-aae0-1438765dd77d
+
 
 ## Basic Example
 
@@ -29,7 +34,8 @@ CameraColorPicker(
 
 ```
 
-
+##Demo-2
+![Screenshot_2024-12-21-01-16-20-651_com example dummy](https://github.com/user-attachments/assets/c38aea6c-eda0-4ba7-b72a-44c35719d9a4)
 ## Example-2 (Use the child argument to change the appearance of the button)
 
 ```
@@ -43,10 +49,12 @@ Color currentColor = Colors.blueAccent;
                   currentColor = color;
                   setState(() {});
                 },
-              child: Icon(
-                  Icons.icecream_sharp,
-                  color: currentColor,
+              child: Container(
+                  child: Icon(
+                    Icons.camera_alt,
+                    color: currentColor,
+                    size: 66,
+                  ),
                 ),
-              ),
 
 ```
