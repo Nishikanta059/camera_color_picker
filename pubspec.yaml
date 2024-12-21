@@ -1,7 +1,7 @@
 name: camera_color_picker
 description: A Flutter widget to pick color using camera
-version: 0.0.1
-homepage:
+version: 0.0.2
+homepage: https://github.com/Nishikanta059/camera_color_picker
 
 environment:
   sdk: '>=3.0.0-417.2.beta <4.0.0'
@@ -10,12 +10,12 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  camera: ^0.10.5+2
+  camera: ^0.11.0+2
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
+  flutter_lints: ^5.0.0
 
 # For information on the generic Dart part of this file, see the
 # following page: https://dart.dev/tools/pub/pubspec

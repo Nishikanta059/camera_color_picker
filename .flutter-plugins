@@ -1,6 +1,6 @@
 # This is a generated file; do not edit or check into version control.
-camera=C:\\Users\\nishi\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\camera-0.10.5+2\\
-camera_android=C:\\Users\\nishi\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\camera_android-0.10.8+3\\
-camera_avfoundation=C:\\Users\\nishi\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\camera_avfoundation-0.9.13+2\\
-camera_web=C:\\Users\\nishi\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\camera_web-0.3.1+4\\
-flutter_plugin_android_lifecycle=C:\\Users\\nishi\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\flutter_plugin_android_lifecycle-2.0.15\\
+camera=C:\\Users\\nishi\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\camera-0.11.0+2\\
+camera_android_camerax=C:\\Users\\nishi\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\camera_android_camerax-0.6.10+1\\
+camera_avfoundation=C:\\Users\\nishi\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\camera_avfoundation-0.9.17+5\\
+camera_web=C:\\Users\\nishi\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\camera_web-0.3.5\\
+flutter_plugin_android_lifecycle=C:\\Users\\nishi\\AppData\\Local\\Pub\\Cache\\hosted\\pub.dev\\flutter_plugin_android_lifecycle-2.0.24\\
