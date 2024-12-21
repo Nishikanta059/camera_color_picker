@@ -4,7 +4,7 @@ version: 0.0.2
 homepage: https://github.com/Nishikanta059/camera_color_picker
 
 environment:
-  sdk: '>=3.0.0-417.2.beta <4.0.0'
+  sdk: '>=3.0.0 <4.0.0'
   flutter: ">=1.17.0"
 
 dependencies:
